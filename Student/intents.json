@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through college events and placements", "know your attendance", "know your marks", "college details" ],
+         "context": [""]
+        },
+        {"tag": "marks",
+         "patterns": ["May I know my marks?", "Can I get my marks", "Please give my marks", "My marks List", "Do you know my marks" ],
+         "responses": ["http://localhost/alvaschatbot/index.php"],
+         "context": [""]
+        },
+        {"tag": "Attendance",
+         "patterns": ["May I know my attendance?", "Can I get my attendance", "Please give my attendance", "Do you know my attendace", "my attendance" ],
+         "responses": ["http://localhost/alvaschatbot/attendance.php"],
+         "context": [""]
+        },
+        {"tag": "timetable",
+         "patterns": ["May I know my timetable?", "Can I get my timetable", "Please give my timetable", "Do you know my timetable", "my timetable" ],
+         "responses": ["http://localhost/alvaschatbot/timetable.php"],
+         "context": [""]
+        },
+        {"tag": "placement",
+         "patterns": ["How is placement", "placement status", "quality of placement", "placement report", "upcoming placement" ],
+         "responses": ["http://localhost/alvaschatbot/placements.php"],
+         "context": [""]
+        },
+		{"tag": "events",
+         "patterns": ["What are the events", "upcoming events", "todays events", "events conducted at college", "college events" ],
+         "responses": ["http://localhost/alvaschatbot/events.php"],
+         "context": [""]
+        },
+        {"tag": "principal",
+         "patterns": ["Who is the principal of aiet", "aiet principal", "principal", "about principal", "about the principal of alvas engineering college" ],
+         "responses": ["Dr. Peter Fernandes"],
+         "context": [""]
+        },
+        {"tag": "Vision-cse",
+         "patterns": ["Vision of cse", "cse vision", "vision of computer science", "Can u tell the vision of cse" ],
+         "responses": ["Engendering competent, excellent professionals by transforming the knowledge and computing skills to individuals through modern innovative tools and techniques."],
+         "context": [""]
+        },
+        {"tag": "about-cse",
+         "patterns": ["About cse", "more about cse", "computer science" ],
+         "responses": ["https://www.aiet.org.in/department/computer-science-engineering/"],
+         "context": [""]
+        }
+   ]
+}
